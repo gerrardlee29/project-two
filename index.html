@@ -13,26 +13,11 @@
 
 
 
-
-
-
     <div id="map"></div>
-
-    <script>
-
-        function initMap() {
-            // Create the map.
-            const map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 13,
-                center: { lat: 38.8339, lng: -104.8214} 
-            });
-
-        }
+    
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUwe8XqBFK596AIrwp9DXMzuOwCnQjzes&libraries=places&callback=initMap">
     </script>
-
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjPChsBGNKJe_Z8dsMrabHzpXLTJSwf60&libraries=places&callback=initMap">
-        </script>
 </body>
 
 </html>
